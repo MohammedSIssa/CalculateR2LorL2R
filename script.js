@@ -3,7 +3,7 @@ var equation = document.querySelector('.equation-input')
 var left2right = document.querySelector('.l2r')
 var right2left = document.querySelector('.r2l')
 
-var numsRegEx = /\d.\d|\d/g
+var numsRegEx = /[\d.\d|\d]/g
 var opsRegEx = /[*|/]/g
 
 left2right.addEventListener('click', ()=>{
